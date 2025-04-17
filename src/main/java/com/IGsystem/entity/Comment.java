@@ -1,0 +1,17 @@
+package com.IGsystem.entity;
+
+import lombok.Data;
+import org.springframework.data.annotation.Id;
+
+@Data
+public class Comment {
+    @Id
+    private Long id;
+    private String content;
+    private Long postId;
+    private Long authorId;
+    private Long parentCommentId; // 父级评论ID
+    private int likeCount;
+    private String createdAt;
+
+}

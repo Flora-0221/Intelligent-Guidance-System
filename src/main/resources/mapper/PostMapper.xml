@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.IGsystem.mapper.TopicMapper">
+    <select id="selectByName" resultType="com.IGsystem.entity.Topics" parameterType="String">
+        SELECT * FROM topics WHERE name = #{name}
+    </select>
+
+
+</mapper>

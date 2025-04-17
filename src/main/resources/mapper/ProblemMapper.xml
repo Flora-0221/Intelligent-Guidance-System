@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.IGsystem.mapper.QuestionMapper">
+    <select id="selectByLabels" parameterType="String" resultType="com.IGsystem.dto.Question">
+        SELECT * FROM problems
+        <where>
+            <if test="grade != null"> AND grade = #{grade} </if>
+            <if test="subject != null"> AND subject = #{subject} </if>
+            <if test="task != null"> AND task = #{task} </if>
+            <if test="category != null"> AND category = #{category} </if>
+            <if test="topic != null"> AND topic = #{topic} </if>
+        </where>
+        LIMIT 8;
+    </select>
+    <select id="selectLabels" parameterType="String" resultType="com.IGsystem.dto.Question">
+        SELECT DISTINCT grade , subject , task , category , topic
+        FROM problems
+        <where>
+            <if test="grade != null"> AND grade = #{grade} </if>
+            <if test="subject != null"> AND subject = #{subject} </if>
+            <if test="task != null"> AND task = #{task} </if>
+            <if test="category != null"> AND category = #{category} </if>
+            <if test="topic != null"> AND topic = #{topic} </if>
+        </where>
+    </select>
+
+
+
+
+</mapper>
