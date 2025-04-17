@@ -79,7 +79,7 @@ EduNavi is committed to promoting **educational equity** by democratizing access
 
 ## 🤝 Contribution
 
-We welcome contributions from the community to improve and expand EduNavi. Feel free to fork the repository, raise issues, or open pull requests!
+We welcome contributions from the community to improve and expand EduNavi. Feel free to fork the repository, raise issues, or open pull requests!!!
 
 ---
 
