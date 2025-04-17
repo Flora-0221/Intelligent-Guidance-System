@@ -2,6 +2,9 @@
 
 EduNavi is an AI-powered intelligent education platform designed to revolutionize digital learning by combining personalized questioning, automated grading, adaptive learning paths, and an engaging community experience. Built on the principles of constructivist education, it empowers students to actively build knowledge through interaction, feedback, and collaboration.
 
+![Main Page](https://github.com/user-attachments/assets/96868a2b-d60c-4ade-bfd7-abf46bac30c2)
+
+
 ## 🚀 Project Vision
 
 As digitalization reshapes global education, EduNavi addresses the urgent need for scalable yet personalized learning environments. By leveraging cutting-edge technologies like LSTM, P-Tuning, Bagging ensemble learning, and Neo4j-based knowledge graphs, EduNavi delivers intelligent guidance and real-time evaluation with high accuracy and adaptability.
@@ -14,10 +17,16 @@ As digitalization reshapes global education, EduNavi addresses the urgent need f
 - Personalized question recommendations based on learner performance
 - Achieves **82.13%** evaluation accuracy via LSTM + P-Tuning + Bagging
 
+![Answering Pages](https://github.com/user-attachments/assets/8017166c-045a-4d22-ad91-3ee989415e2e)
+
 ### 2. **Personalized Learning Navigation**
 - Visualized knowledge graph powered by **Neo4j**
 - Interactive learning path planning based on knowledge acquisition status
 - Customized learning suggestions grounded in constructivist pedagogy
+
+![Knowledge Graph Main Page](https://github.com/user-attachments/assets/563bb967-0037-46e0-928f-de6e934ffd92)
+
+![Knowledge Graph Searching Page](https://github.com/user-attachments/assets/95cc49c5-8741-4ff5-8d32-48c9ae4347f8)
 
 ### 3. **Automated Grading Module**
 - Subjective answer evaluation using deep learning (LSTM/CNN)
@@ -29,10 +38,17 @@ As digitalization reshapes global education, EduNavi addresses the urgent need f
 - Support for **Markdown** editing with real-time preview
 - Interactive features: nested comments, likes, and topic-based navigation
 
+![Community Pages](https://github.com/user-attachments/assets/4b082051-5c1b-49ec-b909-34ebade1caaa)
+
+![Community Pages](https://github.com/user-attachments/assets/db2daffd-aeca-4d76-af95-4d013674ffb7)
+
 ### 5. **User Management Center**
 - Role-based access control (RBAC)
 - Learning data analytics & progress visualization
 - Personalized dashboard with statistics, scores, and recommendations
+
+![User Management Pages](https://github.com/user-attachments/assets/d966d9fb-d1f9-453f-bbb4-2a943232fe23)
+
 
 ## 🛠️ Technology Stack
 
