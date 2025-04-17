@@ -1,2 +1,70 @@
-# Intelligent-Guidance-System
-An AI-powered intelligent learning platform that delivers personalized questioning, automated grading, adaptive learning paths, and community-driven support for enhanced student engagement and understanding.
+# 🌟 EduNavi: Intelligent Guidance System for Next-Generation Learning
+
+EduNavi is an AI-powered intelligent education platform designed to revolutionize digital learning by combining personalized questioning, automated grading, adaptive learning paths, and an engaging community experience. Built on the principles of constructivist education, it empowers students to actively build knowledge through interaction, feedback, and collaboration.
+
+## 🚀 Project Vision
+
+As digitalization reshapes global education, EduNavi addresses the urgent need for scalable yet personalized learning environments. By leveraging cutting-edge technologies like LSTM, P-Tuning, Bagging ensemble learning, and Neo4j-based knowledge graphs, EduNavi delivers intelligent guidance and real-time evaluation with high accuracy and adaptability.
+
+## 🧠 Core Features
+
+### 1. **Intelligent Questioning & Grading System**
+- Multi-dimensional question selection (difficulty, type, quantity)
+- Real-time performance evaluation and AI-generated analysis
+- Personalized question recommendations based on learner performance
+- Achieves **82.13%** evaluation accuracy via LSTM + P-Tuning + Bagging
+
+### 2. **Personalized Learning Navigation**
+- Visualized knowledge graph powered by **Neo4j**
+- Interactive learning path planning based on knowledge acquisition status
+- Customized learning suggestions grounded in constructivist pedagogy
+
+### 3. **Automated Grading Module**
+- Subjective answer evaluation using deep learning (LSTM/CNN)
+- Fine-tuned models optimized with Reinforcement Learning from Human Feedback (RLHF)
+- Improves grading robustness and reduces training complexity
+
+### 4. **Community Support Center**
+- Blog & Q&A sections for collaborative learning
+- Support for **Markdown** editing with real-time preview
+- Interactive features: nested comments, likes, and topic-based navigation
+
+### 5. **User Management Center**
+- Role-based access control (RBAC)
+- Learning data analytics & progress visualization
+- Personalized dashboard with statistics, scores, and recommendations
+
+## 🛠️ Technology Stack
+
+| Layer        | Technology Used                  |
+|-------------|----------------------------------|
+| **Frontend** | Vue.js + Element-UI              |
+| **Backend**  | Spring Boot                      |
+| **Proxy**    | Nginx                            |
+| **Database** | MySQL + Redis + Neo4j            |
+| **Model Layer** | LSTM + P-Tuning + Bagging + RLHF |
+| **Data Access** | MyBatis Plus                  |
+
+> The project follows the **MVC (Model-View-Controller)** architecture for a clean and maintainable codebase.
+
+## 📈 Architecture Overview
+
+- **View Layer:** Vue.js + Element-UI for a responsive and intuitive UI
+- **Controller Layer:** Spring Boot RESTful API handling client-server interactions
+- **Model Layer:** Redis caching, business logic clustering, and data persistence with MyBatis Plus + MySQL
+- **Graph Services:** Neo4j for managing and querying knowledge relationships
+- **AI Engine:** Fine-tuned LSTM with P-Tuning and Bagging for scalable and accurate grading
+
+## 🌍 Vision for the Future
+
+EduNavi is committed to promoting **educational equity** by democratizing access to intelligent learning tools. We strive to build a robust digital learning ecosystem that adapts to each learner’s needs while fostering community-driven knowledge sharing.
+
+---
+
+## 🤝 Contribution
+
+We welcome contributions from the community to improve and expand EduNavi. Feel free to fork the repository, raise issues, or open pull requests!
+
+---
+
+> Empowering learners through intelligence, guidance, and community — EduNavi leads the future of smart education.
